@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .character {
+    margin-bottom: 20px;
+  }
+  
+  .character img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .character p {
+    text-align: center;
+  }
+  
+  #picture {
+    width: 200px; /* Примерна ширина */
+    height: auto; /* Автоматична височина, за да запази пропорциите */
+    border-radius: 50%; /* За да направите изображението кръгло */
+    border: 2px solid #fff; /* Примерен бял контур */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Примерна сянка */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Аранжиране на елементите в колона */
+    align-items: center; /* Центриране на съдържанието хоризонтално */
+    text-align: center; /* Центриране на текста хоризонтално */
+}
+#myParagraph {
+  font-family: Arial, sans-serif; /* Изберете ваш предпочитан шрифт */
+  font-size: 16px; /* Размер на шрифта */
+  color: #333; /* Цвят на текста */
+  line-height: 1.5; /* Височина на реда */
+  text-align: justify; /* Подравняване на текста */
+  padding: 10px; /* Вътрешен отстъп */
+  margin: 20px 300px; /* Отстояние отгоре/отдолу 20px, ляво/дясно 300px */
+  background-color: #f0f0f0; /* Цвят на фона на параграфа */
+  border: 1px solid #ccc; /* Граница на параграфа */
+  border-radius: 20px; /* Овални корнери */
+}
+/* Стил за бутоните */
+button {
+  padding: 10px 20px; /* Вътрешен отстъп */
+  font-size: 16px; /* Размер на шрифта */
+  background-color: #007bff; /* Цвят на фона на бутона */
+  color: #fff; /* Цвят на текста на бутона */
+  border: none; /* Без граница */
+  border-radius: 5px; /* Окръглени ъгли */
+  cursor: pointer; /* Курсор */
+  transition: background-color 0.3s; /* Плавен преход при промяна на цвета на фона */
+}
+
+button:hover {
+  background-color: #0056b3; /* Цвят на фона при ховър */
+}
+
+/* Стил за заглавието */
+h1 {
+  font-family: Arial, sans-serif; /* Избор на шрифт */
+  font-size: 24px; /* Размер на шрифта */
+  color: #fff; /* Цвят на текста */
+  text-align: center; /* Центриране на текста */
+  mix-blend-mode: difference; /* Настройка за подчертаване на текста с фоновия цвят */
+  background-color: #007bff; /* Фонов цвят */
+  padding: 20px; /* Вътрешен отстъп */
+}
+
+
+/* Стил за линковете с бутони */
+.button-link {
+  display: inline-block; /* Поставяне на елементите един до друг */
+  margin: 10px 5px; /* Отстояние между бутоните */
+}
