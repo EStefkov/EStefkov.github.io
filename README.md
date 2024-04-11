@@ -1,1 +1,1 @@
-AI generated story
+# AI generated story
